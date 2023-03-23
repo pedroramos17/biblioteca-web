@@ -3,9 +3,9 @@
 First, run the development server:
 
 ```bash
-npm run dev
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [Expo go](https://expo.dev/client) to download the app and scan the QR code to see the result.
 
 #### In development

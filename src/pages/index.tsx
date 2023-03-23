@@ -9,8 +9,8 @@ export default function Home() {
         <meta name="description" content="Catálogo da biblioteca ETECIA" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <BookList />
-      <BookList />
+      <BookList title="Títulos recentes" />
+      <BookList title="Para explorar" />
     </>
   );
 }
