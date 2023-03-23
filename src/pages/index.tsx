@@ -1,5 +1,5 @@
 import Head from "next/head";
-import BookList from "../../components/BookList";
+import BookList from "../components/BookList";
 
 export default function Home() {
   return (
@@ -9,9 +9,8 @@ export default function Home() {
         <meta name="description" content="Catálogo da biblioteca ETECIA" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <div className="container">
-        <BookList />
-      </div>
+      <BookList />
+      <BookList />
     </>
   );
 }
